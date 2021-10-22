@@ -53,4 +53,13 @@ dependencies {
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
     implementation "androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version"
+
+    // -- circular image
+    implementation 'de.hdodenhof:circleimageview:3.1.0'
+
+    //-- picasso
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    //--facebook shimmer effect
+    implementation 'com.facebook.shimmer:shimmer:0.5.0'
 }
